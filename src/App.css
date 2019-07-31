@@ -1,33 +1,130 @@
-.App {
+.bodyclass{
+  background-color: gainsboro;
+  display: flex;
+}
+.avatar{
+  height: 190px;
+  display: block;
+  margin:auto;
+  border-radius: 50%;
+  margin-top: 70px;
+  width: 200px
+}
+.contacts{
+  width: 230px;
+  background-color: teal;
+  color: white;
+  height: 116vh;
+  position: fixed;
+}
+
+.content{
+  margin-top:0px;
+  margin-left: 10px;
+  padding-left: 1px;
+  min-width:1000px;
+  padding-top:10px;
+  color: black;
+  margin-left: 236px;
+  margin-right: 3px
+
+}
+
+.info{
+  padding:5px;
+}
+
+#contact{
+  margin-top:10px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.table-text{
+  padding-left:13px;
+  font-size: 14px;
+  text-align: left;
+  line-height: 12pt
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.table-icon{
+  width: 5px;
+  font-size: 12px;
+}
+tr{
+  margin-top:10px;
+  padding-top: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+table{
+  border-collapse:separate; 
+  border-spacing:1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.progress{
+  height: 5px
+}
+
+.titles{
+  margin:auto;
+  width:300px;
+  text-align: center;
+}
+.contentTable{
+  margin-top: 0px;
+  background-color: white;
+  box-shadow: 1px 1px 4px;
+  width: 100%;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+
+li{
+   margin-top: 5px
+}
+
+
+
+
+ul{
+  list-style: inside circle;
+  list-style-position: initial;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.frontend-table th td {
+  padding: 7px 10px 10px 10px;
+}
+
+.frontend-table th {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 90%;
+  border-bottom: 2px solid #111111;
+  border-top: 1px solid #999;
+  text-align:left
+}
+
+.frontend-table .even{
+  background-color: #efefef
+}
+.frontend-table .even td{
+  padding: 7px 10px 10px 10px;
+}
+
+.details td{
+  border: 1px solid lightgrey;
+  padding: 5px;
+}
+
+.details{
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
+  width:100%;
+  box-shadow: 1px 1px 4px;
+}
+.details th{
+  border: 1px solid lightgrey;
+  padding: 5px;
+
 }
